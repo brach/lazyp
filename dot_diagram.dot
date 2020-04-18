@@ -1,0 +1,61 @@
+
+digraph Q {
+layout=dot; # dot, neato, circo, sfdp, fdp, twopi
+ratio = "compress";
+splines=true;
+#overlap=scale;
+#node [shape=record color="#3656a5" fontcolor=white style=filled]
+n1 [label="1 Deep Learning Prerequisites:\nThe Numpy Stack in Python" shape=record]
+n2 [label="2 Tensorflow 2.0: Deep Learning\nand Artificial Intelligence" shape=record]
+n3 [label="3 Deep Learning Prerequisites:\nLinear Regression in Python" shape=record]
+n4 [label="4 Deep Learning Prerequisites:\nLogistic Regression in Python" shape=record]
+n5 [label="5 Data Science: Supervised\nMachine Learning in Python" shape=record]
+n6 [label="6 Bayesian Machine Learning\nin Python: A/B Testing" shape=record]
+n7 [label="7 Data Science: Deep\nLearning in Python" shape=record]
+n8 [label="8 Modern Deep\nLearning in Python" shape=record]
+n9 [label="9 Ensemble Machine Learning in\nPython: Random Forest, AdaBoost" shape=record]
+n10 [label="10 Deep Learning: Convolutional\nNeural Networks in Python" shape=record]
+n11 [label="11 Cluster Analysis and Unsupervised\nMachine Learning in Python" shape=record]
+n12 [label="12 Unsupervised Deep\nLearning in Python" shape=record]
+n13 [label="13 Data Science: Natural Language\nProcessing (NLP) in Python" shape=record]
+n14 [label="14 Unsupervised Machine Learning\nHidden Markov Models in Python" shape=record]
+n15 [label="15 Artificial Intelligence:\nReinforcement Learning in Python" shape=record]
+n16 [label="16 Deep Learning: Recurrent\nNeural Networks in Python" shape=record]
+n17 [label="17 Natural Language Processing\nwith Deep Learning in Python" shape=record]
+n18 [label="18 Advanced AI: Deep\nReinforcement Learning in Python" shape=record]
+n19 [label="19 Deep Learning: GANs and\nVariational Autoencoders" shape=record]
+n20 [label="20 Deep Learning: Advanced\nComputer Vision (GANs, SSD, +More!)" shape=record]
+n21 [label="21 Deep Learning: Advanced\nNLP and RNNs" shape=record]
+n22 [label="22 Recommender Systems and\nDeep Learning in Python" shape=record]
+n23 [label="23 Machine Learning and AI:\nSupport Vector Machines in Python" shape=record]
+n24 [label="24 Cutting-Edge AI: Deep\nReinforcement Learning in Python" shape=record]
+n25 [label="25 PyTorch: Deep Learning\nand Artificial Intelligence" shape=record]
+
+n1 -> n2
+n1 -> n3
+n3 -> n4
+n4 -> n5
+n1 -> n6
+n4 -> n7
+n7 -> n8
+n5 -> n9
+n8 -> n10
+n5 -> n11
+n10 -> n12
+n5 -> n13
+n11 -> n14
+n6 -> n15
+n14 -> n16
+n13 -> n17
+n15 -> n18
+n12 -> n19
+n10 -> n20
+n17 -> n21
+n12 -> n22
+n9 -> n23
+n18 -> n24
+n12 -> n16
+n16 -> n17
+n10 -> n18
+
+}
